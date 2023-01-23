@@ -1,0 +1,71 @@
+:root {
+	--brand-primary-color: #f0e4cd;
+	--brand-secondary-color: red;
+}
+
+::selection {
+	background-color: var(--brand-primary-color);
+	color: var(--brand-secondary-color);
+}
+
+/* Footer */
+footer {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding: 20px;
+	color: var(--brand-primary-color);
+}
+
+.footer-content {
+	width: 100%;
+}
+
+.footer-note {
+	text-align: center;
+	padding-top: 40px;
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+#footerflex {
+	display: flex;
+	flex-direction: row;
+}
+
+.footer-content .box {
+	width: 33.33%;
+	text-align: center;
+}
+
+.box .icon span {
+	font-size: 25px;
+	padding: 10px;
+	color: rgb(0, 255, 242);
+}
+
+span {
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+	-webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+	transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+span:hover {
+	-webkit-transform: scale(1.1, 1.1);
+	transform: scale(1.8, 1.8);
+	cursor: pointer;
+}
+
+.box h4 {
+	font-size: 16px;
+	padding: 10px;
+}
+
+.box a {
+	text-decoration: none;
+	color: oldlace;
+}
+
+.box a:hover {
+	color: rgb(0, 255, 242);
+	transition: all 0.1s ease;
+}
